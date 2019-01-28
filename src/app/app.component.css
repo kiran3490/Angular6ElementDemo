@@ -1,0 +1,19 @@
+.txt-box {
+    display: flex;
+    justify-content: left;
+}
+
+.txt-box>input {
+    border: 0;
+    box-shadow: 0px 0px 3px 1px #333;
+    border-bottom: 1px solid #777;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.out-txt {
+    color: #333;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}

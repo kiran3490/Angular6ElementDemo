@@ -1,6 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+  <div class="txt-box">
+    <input type="text" placeholder="Type Something" [value]="textBox" (input)="textBox=$event.target.value">
+  </div>
+  <div class="out-txt">
+    {{textBox}}
+  </div>
 </div>
